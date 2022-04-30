@@ -1,0 +1,151 @@
+body {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 16px;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li:hover {
+    background: #e7e7e7;
+}
+
+#menu_top {
+    background: #A9161C;
+    height: 50px;
+    border-bottom: 2px solid #dbb4b5;
+}
+
+#menu_top ul li {
+    list-style: none;
+    float: left;
+}
+
+#menu_top ul li a {
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: #fff;
+    background: #CF0000;
+    padding: 0px 10px 0px;
+    border-right: 2px solid #dbb4b5;
+}
+
+#menu_top ul li a.active {
+    background: #24333D;
+    color: #fff;
+}
+
+#menu_top ul li a:hover {
+    background: rgb(233, 117, 121);
+    color: #fff;
+}
+
+#banner {
+    background: #A9161C;
+    width: 1000px;
+    height: 250px;
+    position: relative;
+}
+
+#banner img {
+    position: absolute;
+    top: 17%;
+    left: 25%;
+    width: 50%;
+}
+
+#main {
+    margin-top: 13px;
+}
+
+#main #left {
+    width: 650px;
+    min-height: auto;
+    float: left;
+}
+
+#main #left ul li {
+    list-style: none;
+    border-top: 2px solid #D9291D;
+    clear: left;
+    float: left;
+}
+
+#main #left ul li img {
+    width: 200px;
+    height: 130px;
+    float: left;
+    margin: 10px;
+    border: 4px solid #D9291D;
+}
+
+#main #left ul li a h1 {
+    font-weight: 800;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-bottom: -5px;
+    color: #A9161C;
+}
+
+#main #left ul li h2 {
+    font-weight: 500;
+    text-indent: 3%;
+    text-align: justify;
+    font-size: 14px;
+    color: #c7565a;
+    padding-right: 12px;
+}
+
+#main #right {
+    width: 300px;
+    float: left;
+    min-height: 400px;
+}
+
+#main #right h3 {
+    background: #CF0000;
+    width: 335px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-bottom: -2px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#main #right ul a li {
+    font-weight: 500;
+    list-style: none;
+    width: 315px;
+    margin-left: 15px;
+    line-height: 35px;
+    color: #A9161C;
+    padding: 0px 10px 0px;
+    border-top: 2px solid #D9291D;
+}
+
+#footer {
+    background: #b8b8b8;
+    width: 1000px;
+    height: 75px;
+    clear: left;
+}
+
+#footer img {
+    width: 1000px;
+}
